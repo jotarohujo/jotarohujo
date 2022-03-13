@@ -74,7 +74,7 @@ Sleep 100
 Click 1537, 488
 Sleep 100
 Click 970, 760			;GG
-Sleep 330000
+Sleep 333000
 Click 973, 903			;Next
 Sleep 500
 Click 1229, 846			;Freeplay
