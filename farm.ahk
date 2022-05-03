@@ -1,45 +1,29 @@
-F2::
-ExitAPP
-F3::
-Reload
+F4::ExitApp
 F1::
-Click 800, 900          	; Play
-Sleep 300
-Click 1400, 950	      		; Expert
-Sleep 300
-Click 539, 580        		; Infernal
-Sleep 300
-Click 630, 440			;Easy
-Sleep 300
-Click 1250, 450			;Deflation
-Sleep 5000
-Click 970, 760			;OK
-Sleep 700
-
 Loop
 {
 setkeydelay 0, 50		;Dartling
 Send, m					
-Sleep 100
+Sleep 200
 Click 77, 574			;Place Dartling
-Sleep 100
+Sleep 200
 Click 77, 574				
-Sleep 100
+Sleep 200
 Click 1550, 750			;Upgrades Dartling
-Sleep 10			
+Sleep 50			
 Click 1550, 750			
-Sleep 10
+Sleep 50
 Click 1550, 750
-Sleep 10
+Sleep 50
 Click 1550, 750
-Sleep 10
+Sleep 50
 Click 1530, 620
-Sleep 10
+Sleep 50
 Click 1530, 620
-Sleep 10
+Sleep 50
 setkeydelay 0, 50		;Targeting
 Send, {TAB}					
-Sleep 10
+Sleep 20
 setkeydelay 0, 50			
 Send, {TAB}					
 Sleep 200
@@ -74,7 +58,7 @@ Sleep 100
 Click 1537, 488
 Sleep 100
 Click 970, 760			;GG
-Sleep 333000
+Sleep 332000
 Click 973, 903			;Next
 Sleep 500
 Click 1229, 846			;Freeplay
